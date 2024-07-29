@@ -1,0 +1,44 @@
+### GET ALL USERS
+GET http://localhost:3000/users
+Content-Type: "application/json"
+
+### GET USERS By Id
+GET http://localhost:3000/users/1
+Content-Type: "application/json"
+
+### Create USERS
+POST http://localhost:3000/users
+Content-Type: "application/json"
+
+{
+      "name": "Alip Simanjuntak",
+      "email": "alip25@gmail.com",
+      "gender": "Male",
+      "dob": "1999-05-28",
+      "address": {
+        "rt": "012",
+        "rw": "014",
+        "street": "Jl.Kipas Angin 45",
+        "ward": "Citayem",
+        "subdistrict": "Bojong Gede"
+      }
+}
+
+### Edit(Update)USERS By Id USERS
+PUT http://localhost:3000/users/4
+Content-Type: "application/json"
+
+{
+  "id": "4",
+      "name": "Alip Waluyo Simanjuntak",
+      "email": "alip25@gmail.com",
+      "gender": "Male",
+      "dob": "1999-05-28",
+      "address": {
+        "rt": "012",
+        "rw": "014",
+        "street": "Jl.Kipas Angin 45",
+        "ward": "Citayem",
+        "subdistrict": "Bojong Gede"
+      }
+}

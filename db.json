@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Muhammad Azhar Al Gifari",
+      "email": "azhar22@gmail.com",
+      "gender": "Male",
+      "dob": "2004-04-22",
+      "address": {
+        "rt": "009",
+        "rw": "014",
+        "street": "Jl.Merpatih Putih 1 Blok d22 No.2",
+        "ward": "Mekarsari",
+        "subdistrict": "Cimanggis"
+      },
+      "id": "1"
+    },
+    {
+      "name": "Alyssa Warren Luis",
+      "email": "jofi@mailinator.com",
+      "gender": "Female",
+      "dob": "1980-10-11",
+      "address": {
+        "rt": "006",
+        "rw": "014",
+        "street": "Jl.Potlot 10",
+        "ward": "Mekarsari",
+        "subdistrict": "Cimanggis"
+      },
+      "id": "695b"
+    }
+  ]
+}
